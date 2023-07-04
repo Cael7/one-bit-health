@@ -24,7 +24,7 @@ export default function Form() {
     }
     setImc(null);
     setTextButton("Calcular");
-    setMassageImc("Preencha o peso e a altura");
+    setMessageImc("Preencha o peso e a altura");
   }
 
   return (
@@ -44,7 +44,7 @@ export default function Form() {
           placeholder="Ex. 75.365"
           keyboardType="numeric"
         />
-        <Button onPress={() => validationImc()} title="Calcular IMC" />
+        <Button onPress={() => validationImc()} title={textButton} />
       </View>
       <ResultIMC messageResultIMC={messageImc} resultIMC={imc} />
     </View>
