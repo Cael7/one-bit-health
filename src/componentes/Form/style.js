@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   formLabel: {
-    color: "#00000",
+    color: "#000000",
     fontSize: 18,
     paddingLeft: 20,
   },
@@ -44,6 +44,12 @@ const styles = StyleSheet.create({
     paddingBottom: 14,
     marginLeft: 12,
     margin: 30,
+  },
+  errorMessage: {
+    fontSize: 12,
+    color: "red",
+    fontWeight: "bold",
+    paddingLeft: 20,
   },
 });
 
