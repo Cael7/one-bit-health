@@ -53,7 +53,7 @@ export default function Form() {
             validationImc();
           }}
         >
-          <Text style={styles.textButtonCalculator}>{text}</Text>
+          <Text style={styles.textButtonCalculator}>{textButton}</Text>
         </TouchableOpacity>
       </View>
       <ResultIMC messageResultIMC={messageImc} resultIMC={imc} />
