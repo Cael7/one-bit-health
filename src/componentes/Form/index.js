@@ -100,6 +100,7 @@ export default function Form() {
         </View>
       )}
       <FlatList
+        showsVerticalScrollIndicator={true}
         style={styles.listImc}
         data={imcList.reverse()}
         renderItem={({ item }) => {
